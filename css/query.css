@@ -1,0 +1,72 @@
+/* small desktop */
+@media only screen and (max-width:1040px) {
+    h1{
+        font-size: 2.5rem;
+    }
+    
+    h2{
+        font-size: 1.5rem;
+    }
+    header{
+        background-size: contain;
+    }
+
+    nav ul li a {
+        
+        font-size: 1rem;
+    }
+    .features-info{
+        font-size: 130%;
+
+    }
+    .feature-article{
+       font-size:0.9rem;
+    }
+    .steps{
+        font-size: .9rem;
+    }
+    
+    .steps-iphone img{ 
+       width: 32%;  
+    }
+    .app-img {
+        width: 1.2rem;
+    }
+    .reveiw{
+        background-size: contain;
+    }
+    .signup-child{
+        width: 70%;
+        height: 50%;
+    }
+    section {
+        padding: 2.5% 4.5%;
+    }
+}
+
+/* tablet */
+@media only screen and (max-width:1026px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    section {
+        padding: 2.5% 4.5%;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width:380px) {
+    h1 {
+
+        font-size: 1.5rem;
+    }
+
+    nav ul li a {
+        
+        font-size: 0.5rem;
+    }
+
+    section {
+        padding: 2.5% 4.5%;
+    }
+}
